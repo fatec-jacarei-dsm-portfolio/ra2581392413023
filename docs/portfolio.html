@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Bruno Alves Pereira dos Santos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="assets/css/portfolio.css" />
+  <script src="assets/js/filter.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">Bruno Alves</div>
+      <nav class="nav-links">
+        <a href="index.html">Sobre</a>
+        <a href="portfolio.html" class="active">Portfólio</a>
+      </nav>
+      <div class="socials">
+        <a href="https://github.com/bWSantos7" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/brunoalvespereiradossantos2/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="page-header">
+      <h1>Portfólio</h1>
+      <div class="portfolio-filters filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="applications">Aplicações</button>
+        <button class="filter-btn" data-filter="web-design">Web Design</button>
+        <button class="filter-btn" data-filter="simple-development">Código simples</button>
+      </div>
+    </div>
+
+    <div class="portfolio-grid grid">
+      <a href="https://njord-static.onrender.com/" class="portfolio-card-link card" target="_blank" data-category="applications">
+        <img src="assets/images/njord.png" alt="Njord">
+        <h3>Njord</h3>
+        <p>
+          Aplicação construída para o projeto LabWind, do CNPq. Permite usuários acompanhar a situação do
+          Lago de Furnas, gerar gráficos com dados capturados pelos sensores, emite alertas caso o lago
+          esteja muito agitado e perigoso.
+        </p>
+      </a>
+
+      <a href="https://safetemp.onrender.com/" class="portfolio-card-link card" target="_blank" data-category="applications">
+        <img src="assets/images/safetemp.png" alt="SafeTemp">
+        <h3>SafeTemp</h3>
+        <p>
+          Sistema web e mobile desenvolvido para monitorar as estufas laboratoriais da instituição FATEC -
+          Jacareí. Seu uso é voltado para estudantes, gestores e professores que utilizam a estufa para
+          realizar experimentos, operações e estudos no geral.
+        </p>
+      </a>
+
+      <a href="https://github.com/gjulianni/megasena/" class="portfolio-card-link card" target="_blank" data-category="simple-development">
+        <img src="assets/images/megasena.png" alt="Megasena">
+        <h3>Resultados da Megasena</h3>
+        <p>Web app simples que se conecta com a API da Caixa para mostrar os resultados mais recentes da Megasena, Timemania e Quina.</p>
+      </a>
+
+      <a href="https://ceres-vita.onrender.com/" class="portfolio-card-link card" target="_blank" data-category="applications">
+        <img src="assets/images/ceres.png" alt="Ceres Vita">
+        <h3>Ceres Vita</h3>
+        <p>Uma aplicação web que oferece um sistema de controle nutricional, permitindo ao usuário registrar alimentos ingeridos, calcular calorias, e muito mais.</p>
+      </a>
+
+      <a href="https://github.com/gjulianni/Innovatech/" class="portfolio-card-link card" target="_blank" data-category="applications">
+        <img src="assets/images/innovatech.png" alt="Scrum">
+        <h3>Website Scrum</h3>
+        <p>Aplicação web desenvolvida para usuários interessados em aprenderem sobre a metodologia SCRUM, contendo diversas aulas e explicações por tópico com exemplos reais de uso da metodologia.</p>
+      </a>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="contact-item"><i class="fa-solid fa-envelope"></i>brunowsantos15@gmail.com</div>
+      <div class="contact-item"><i class="fa-solid fa-phone"></i>+55 12 98848-6427</div>
+      <div class="contact-item"><i class="fa-solid fa-location-dot"></i>Jacareí - SP</div>
+    </div>
+  </footer>
+
+</body>
+</html>
